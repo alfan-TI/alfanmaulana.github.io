@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@100;400&display=swap');
+*{
+    font-family: 'Arial', sans-serif;
+}
+
+section{
+    min-height: 420px;
+}
+.link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+ }
+
+#inicenter{
+    margin: 160px 0;
+}
+
+.inicontent{
+    display: flex;
+    flex-direction: row;
+}
+
+.isicontent{
+    width: 70%;
+}
+
+.contentvertical{
+    margin: 9.7% 0;
+}
+
+.jumbotron{
+    background-image: url("img/banner.jpg");
+}
+
+.judul{
+    font-weight: bold; 
+    color: #ffffff; 
+    /* text-shadow: 1px 1px 5px rgb(0, 0, 0); */
+}
+
+.judultulisan{
+    color: #ffffff; 
+    /* text-shadow: 1px 1px 5px rgb(0, 0, 0); */
+}
+
+.hirebtn{
+    background-color: rgb(0, 0, 0);
+    padding: 8px 15px;
+    outline: 2px rgb(226, 226, 226) solid;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: none;
+    transition: 0.5s;
+}
+
+.hirebtn:hover{
+    background-color: rgb(226, 226, 226);
+    outline: 2px rgb(0, 0, 0) solid;
+    color: #000000;
+}
+
+.fotoprofile{
+    width: 280px; 
+    border: 6px solid #000000;
+}
+
+.icons{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.textfooter{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .inicontent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fotoprofile{
+        width: 280px; 
+        border: 6px solid #000000;
+    }
+    .photo{
+        text-align: center;
+    }
+    .centerteks{
+        text-align: center;
+    }
+    .judul{
+        font-weight: bold; 
+        color: #000000; 
+        /* text-shadow: 1px 1px 5px rgb(0, 0, 0); */
+    }
+    .judultulisan{
+        color: #000000; 
+        /* text-shadow: 1px 1px 5px rgb(0, 0, 0); */
+    }
+    .col-sm-6{
+        margin-top: 20px;
+    }
+}
